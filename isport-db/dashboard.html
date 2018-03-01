@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html ng-app="ListaUsuarios">
+        <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+            <title>ISports-Instituição</title>
+
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+
+            <!-- NOSSO CSS DEPOIS PRA ELE PREVALECER-->
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <link rel="shortcut icon" href="https://www.sprivail.org/files/pluginfiles/item_149/field_182/logo_runner_reg-2_reg.png" type="image" />
+
+        </head>
+
+        <body ng-controller="myCtrl">
+
+            <nav class="navbar navbar-expand-lg navbar-light navebarra">
+                <img src="https://www.sprivail.org/files/pluginfiles/item_149/field_182/logo_runner_reg-2_reg.png" width="50" height="50" class="d-inline-block align-top" alt="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <a class="navbar-brand" href="#">iSports</a>
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Aventure-se <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">esportes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"></a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0 btncanto" type="submit">Procurar</button>
+                    </form>
+                </div>
+            </nav>
+
+            <!-- Corpo -->
+
+            {{1+1}}
+            <div class="card" style="width: 18rem;" ng-repeat="usuario in usuarios">
+                <div class="card-body"> 
+                        <input type="text">
+
+                        <h5 class="card-title"></h5>
+                        <p class="card-text"> and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary"> {{usuario.nome}} </a>
+                </div>
+            </div>
+
+
+            <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+            <script src="controllers/controllers.js"></script>
+            <script src="controllers/services.js"></script>
+        </body>
+
+</html>

@@ -1,0 +1,36 @@
+    {
+        {
+            nome:"caio",
+            email:"caio@gmail.com",
+            senha:"123",
+            endereço:"celso lara",
+            estado:"sao paulo",
+            esporte:"futebol",
+            instituicao:"escola",
+            historia:"Não possuo muita renda, por isso a dificuldade em me tornar profissinal mas esse é meu maior sonho",
+            imagem:""
+        },
+        {
+            nome:"maicon",
+            email:"maincon@gmail.com",
+            senha:"321",
+            endereço:"sekla",
+            estado:"sao paulo",
+            esporte:"basquete",
+            instituicao:"projeto social",
+            historia:"Sonho em ser profissinal mas aqui nao possui nenhum projeto voltado a isso",
+            imagem:""
+        },
+        {
+            nome:"marcelo",
+            email:"marcelo.com",
+            senha:"444",
+            endereço:"rubens lara",
+            estado:"Santa catarina",
+            esporte:"volei",
+            instituicao:"clube",
+            historia:"Todos dizem que eu tenho um dom mais nao consigo entrar em um bom clube.",
+            imagem:""
+        }
+       
+    }
